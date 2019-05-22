@@ -13,7 +13,7 @@
 
 Soumettez une [issue](https://github.com/rennestech/bbl/issues) avec le titre de votre présentation et une description.
 
-## 🎙 J'aimerais organiser une BBL dans mon entreprise
+## :office: J'aimerais organiser une BBL dans mon entreprise
 
 Soumettez une [issue](https://github.com/rennestech/bbl/issues).
 
