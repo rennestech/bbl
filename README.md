@@ -1,4 +1,4 @@
-# BBL Rennes
+# BBL Rennes ([qu'est-ce qu'un BBL?](https://www.brownbaglunch.fr/))
 
 > Les BBL techs organisées à Rennes
 
