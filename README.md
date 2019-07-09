@@ -23,3 +23,9 @@ Soumettez une [issue](https://github.com/rennestech/bbl/issues).
 ## 👋 Slack
 
 Venez discuter avec la communauté sur [Slack](https://join.slack.com/t/rennestech/shared_invite/enQtNTY5OTk4NDk5MzAyLWRjZjg4MTAwNTU1ODczMjgwNmJkMzM5Y2UzMWQyZDc0MGRmM2Q2YjExNDQ4MmJlM2E5MWYwYTRlZGQzODdjOGY)
+
+## Speakers et talks
+
+[//]: #startspeakers
+
+[//]: #endspeakers
