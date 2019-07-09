@@ -3,18 +3,15 @@ const fs = require("fs");
 
 const speakersJs = 'https://data.brownbaglunch.fr/baggers.js';
 const readme = 'README.md';
-let speakers = "";
-
 
 (async () => {
     const bbl = await fetch(speakersJs);
     const body = await bbl.text();
     eval(body);
-    const rennesSpeakers = data.speakers.filter(speaker => speaker.cities.includes('Rennes'));
-
-    rennesSpeakers.forEach(function(speaker) {
-        speakers += getSpeakerInfos(speaker);
-    });
+    const speakers = data.speakers
+        .filter(speaker => speaker.cities.includes('Rennes'))
+        .map(rennesSpeaker => getSpeakerInfos(rennesSpeaker))
+        .join('');
 
     fs.readFile(readme, 'utf8', function (err,data) {
         if (err) {
