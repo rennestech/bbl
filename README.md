@@ -6,6 +6,8 @@
 
 ### A venir
 
+### Passés
+
 :calendar: 24 juin :office: Ouest-France :microphone: Loïc Troquet
 
 :memo: Comment PagesJaunes se prépare à dépasser Ouest-France dans le classement webperf
