@@ -14,11 +14,12 @@ Après un balayage rapide du contexte PagesJaunes, des éléments essentiels de 
 
 ## 🎙 J'aimerais proposer un talk
 
-Soumettez une [issue](https://github.com/rennestech/bbl/issues) avec le titre de votre présentation et une description.
+Nous reprenons la source https://github.com/brownbaglunch/BrownBagLunch avec les speakers de Rennes.
+Soumettez une PR là bas pour vous y ajouter et vous serez automatiquement ajouté ici.
 
 ## :office: J'aimerais organiser une BBL dans mon entreprise
 
-Soumettez une [issue](https://github.com/rennestech/bbl/issues).
+Soumettez une [issue](https://github.com/rennestech/bbl/issues) et nous l'ajouterons ci-dessus.
 
 ## 👋 Slack
 
