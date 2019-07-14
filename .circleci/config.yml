@@ -28,3 +28,16 @@ jobs:
             git config user.name "Circle CI"
             git add README.md
             git diff --quiet && git diff --staged --quiet || git commit -m "Update speakers" || git push origin master
+workflows:
+  version: 2
+  nightly:
+    triggers:
+      - schedule:
+          cron: "0 0 * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - compute_speakers
+  
