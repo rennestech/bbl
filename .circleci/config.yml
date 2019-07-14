@@ -27,5 +27,4 @@ jobs:
             git config user.email "no-reply@circleci.com"
             git config user.name "Circle CI"
             git add README.md
-            git commit -m "Update speakers"
-            git push origin master
+            git diff --quiet && git diff --staged --quiet || git commit -m "Update speakers" || git push origin master
