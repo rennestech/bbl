@@ -1,0 +1,731 @@
+:toc:
+:toc-placement!:
+
+= BBL Rennes https://www.brownbaglunch.fr/[qu'est-ce qu'un BBL?]
+
+Rennes c'est aussi des passionnés et des fondus de tech ! Qui se retrouvent parfois sur https://join.slack.com/t/rennestech/shared_invite/enQtNTY5OTk4NDk5MzAyLWRjZjg4MTAwNTU1ODczMjgwNmJkMzM5Y2UzMWQyZDc0MGRmM2Q2YjExNDQ4MmJlM2E5MWYwYTRlZGQzODdjOGY[Slack], au BreizhCamp ou dans d'autres évènements locaux.
+
+Et si vous invitiez l'un de ces <<Speakers>> Rennais directement dans votre entreprise pour un https://www.brownbaglunch.fr/[BBL] ?
+
+toc::[]
+
+== 🗓 Programme 2019
+
+=== A venir
+
+=== Passés
+
+:calendar: 24 juin :office: Ouest-France :microphone: Loïc Troquet
+
+:memo: Comment PagesJaunes se prépare à dépasser Ouest-France dans le classement webperf
+
+Après un balayage rapide du contexte PagesJaunes, des éléments essentiels de la webperf, d'un focus sur les outils que nous utilisons et du classement JDN. Nous détaillerons les différents projets d’amélioration menés ces 9 derniers mois et les impacts de chacun.
+
+== 🎙 J'aimerais proposer un talk
+
+Nous reprenons la source https://github.com/brownbaglunch/BrownBagLunch avec les speakers de Rennes.
+Soumettez une PR là bas pour vous y ajouter et vous serez automatiquement ajouté ici.
+
+== :office: J'aimerais organiser une BBL dans mon entreprise
+
+Soumettez une https://github.com/rennestech/bbl/issues[issue] et nous l'ajouterons ci-dessus.
+
+== 👋 Slack
+
+Venez discuter avec la communauté sur https://join.slack.com/t/rennestech/shared_invite/enQtNTY5OTk4NDk5MzAyLWRjZjg4MTAwNTU1ODczMjgwNmJkMzM5Y2UzMWQyZDc0MGRmM2Q2YjExNDQ4MmJlM2E5MWYwYTRlZGQzODdjOGY[Slack]
+
+
+'''
+== Speakers
+
+
+[# speaker-Arnaud Bailly]
+
+=== Arnaud Bailly
+
+
+image::https://avatars.io/twitter/dr_c0d3?.png[64,64]
+
+> Couteau suisse du code
+
+Talks:
+
+* <<Coding Dojo>>
+* <<TDD à tous les étages>>
+* <<Haskell pour les nuls>>
+* <<Event Sourcing, Functionally>>
+
+
+[# speaker-Christophe Bégot]
+
+=== Christophe Bégot
+
+
+
+
+> Facilitateur Agile
+
+Talks:
+
+* <<Méthodes et pratiques Agiles>>
+* <<Rétrospective>>
+* <<Coaching individuel>>
+
+
+[# speaker-David DE CARVALHO]
+
+=== David DE CARVALHO
+
+
+image::https://avatars.io/twitter/dedece35?.png[64,64]
+
+> Technical Leader et Ingénieur Développeur &#x27;touche-à-tout&#x27; depuis une dizaine d&#x27;années (13 ans). @PagesJaunes (depuis 7 ans)
+
+Talks:
+
+* <<Retour d&#x27;EXperience PagesJaunes : les transactions dans une architecture microservices>>
+* <<Pimentez votre &#x27;carto&#x27; avec du temps réel>>
+
+
+[# speaker-David Martin]
+
+=== David Martin
+
+
+image::https://avatars.io/twitter/_dmartin_?.png[64,64]
+
+> Directeur du Pôle Conseil et Consultant Java
+
+Talks:
+
+* <<API Web : Best pratices>>
+* <<Hypermedia API>>
+* <<API Web et Cache>>
+
+
+[# speaker-Fabien Grellier]
+
+=== Fabien Grellier
+
+
+image::https://avatars.io/twitter/FabGrellier?.png[64,64]
+
+> Mise en place d&#x27;agilité à l&#x27;échelle et de pratiques DevOps en tant que CTO PagesJaunes.fr, puis chez Ouest-France
+
+Talks:
+
+* <<10 Leviers pour rendre son SI Agile, durable et étendu>>
+
+
+[# speaker-Guillaume Collic]
+
+=== Guillaume Collic
+
+
+image::https://avatars.io/twitter/gcollic?.png[64,64]
+
+> Développeur agiliste passionné. Impliqué dans plusieurs initiatives de l&#x27;ouest autour du code ou de l&#x27;agilité.
+
+Talks:
+
+* <<Intérêt de Git en entreprise>>
+* <<Introduction au TDD par la pratique>>
+* <<Tour d&#x27;horizon des méthodes agiles>>
+
+
+[# speaker-Haja Rambelontsalama]
+
+=== Haja Rambelontsalama
+
+
+image::https://avatars.io/twitter/hrambelo?.png[64,64]
+
+> Ingénieur Architecte et Coach technique, agiliste de coeur, crafteur d&#x27;esprit, le partage de passions est ce qui m&#x27;anime.
+
+Talks:
+
+* <<Mon équipe se focalise sur la valeur métier ... grâce au code>>
+* <<Retour vers le passé|futur avec Git>>
+* <<Lego4DevOps>>
+
+
+[# speaker-Julien Fallet]
+
+=== Julien Fallet
+
+
+
+
+> Agilitateur, éCoLibriste
+
+Talks:
+
+* <<Le développement logiciel avec les méthodes agiles>>
+* <<Facilitation graphique>>
+* <<Vin et kanban>>
+* <<Agile et UX>>
+* <<L&#x27;aventure intérieure>>
+* <<Extreme Serious Game>>
+
+
+[# speaker-Nicolas De Loof]
+
+=== Nicolas De Loof
+
+
+image::https://avatars.io/twitter/ndeloof?.png[64,64]
+
+> Developer Advocate chez CloudBees
+
+Talks:
+
+* <<Jenkins X: toward a Cloud-native Jenkins>>
+
+
+[# speaker-Nicolas Ledez]
+
+=== Nicolas Ledez
+
+
+image::https://avatars.io/twitter/nledez?.png[64,64]
+
+> Sysadmin depuis quelques années. Fainéant donc développeur (Ruby, Python, &#x27;bash&#x27;, etc.). Donc forcement &#x27;DevOps
+
+Talks:
+
+* <<&quot;Infrastructure as code&quot; avec Chef>>
+* <<Dev(\)Ops ? l&#x27;after Agile ?>>
+* <<Y sont pas cher mes tests !>>
+* <<Introduction à Ruby>>
+* <<Introduction à Vagrant>>
+* <<Introduction au Cloud>>
+* <<Jouez avec des feux tricolores en Ruby>>
+* <<Tu veux scripter ?>>
+* <<Git for dumbass + Git trick or treats>>
+
+
+[# speaker-Olivier Philippot]
+
+=== Olivier Philippot
+
+
+image::https://avatars.io/twitter/simplygreenit?.png[64,64]
+
+> Consultant eco-conception logicielle; |CTO chez Greenspector
+
+Talks:
+
+* <<Comment être un développeur ethique et green ? Dilemne entre la course technologique et mon impact sur la société.>>
+* <<Iotception : Mesure de l&#x27;énergie d&#x27;Android Things sur Raspberry avec Arduino>>
+* <<Mesurez votre consommation d&#x27;énergie sur Android et sur HTML5>>
+
+
+[# speaker-Pierre Marquis]
+
+=== Pierre Marquis
+
+
+image::https://avatars.io/twitter/PierMarquis?.png[64,64]
+
+> CTO adjoint et scrum Master chez Efficity, Développeur Python, Porteur agile
+
+Talks:
+
+* <<Retour d&#x27;expérience Agile chez Mappy, Nokia, Efficity>>
+* <<Transformation agile>>
+* <<Management d&#x27;équipe technique>>
+
+
+[# speaker-Timothée Chevrier]
+
+=== Timothée Chevrier
+
+
+image::https://avatars.io/twitter/msieur_tim?.png[64,64]
+
+> Agiliste passionné avant tout. Scrum master, chef de projet, un peu développeur... Je suis un optimiste passioné par l&#x27;apprentissage collectif. Je m&#x27;intéresse aux sujets tournant autour de l&#x27;agilité bien sûr mais plus largement des mouvements proches : l&#x27;entreprise libérée, le leadership, le coaching, l&#x27;intelligence collective, le bien être au travail, le management 3.0, etc... 
+
+Talks:
+
+* <<Après les user stories, les team stories>>
+* <<Animation d&#x27;ateliers et/ou de jeux>>
+* <<L&#x27;agilité c&#x27;est quoi ?>>
+
+
+[# speaker-Tugdual Grall]
+
+=== Tugdual Grall
+
+
+image::https://avatars.io/twitter/tgrall?.png[64,64]
+
+> Chief Technical Evangelist at MapR
+
+Talks:
+
+* <<Introduction au Big Data et NosQL>>
+* <<Fast Cars, Big Data: ou comment le streaming peut aider la formule 1>>
+* <<Stream Processing avec Apache Flink>>
+
+
+[# speaker-Vincent Lainé]
+
+=== Vincent Lainé
+
+
+
+
+> Architecte .NET, développeur et curieux de nature, j&#x27;ai de plus en plus la tête dans le cloud et sur mon mobile
+
+Talks:
+
+* <<Architecture Cloud sur Azure en C#>>
+* <<Développer en C# pour le cloud>>
+* <<L&#x27;agile supporté par Visual Studio Online / TFS 2015>>
+* <<Développer des applications mobile avec Xamarin>>
+
+
+[# speaker-Xavier MARIN]
+
+=== Xavier MARIN
+
+
+image::https://avatars.io/twitter/xavmarin?.png[64,64]
+
+> Core développeur chez SenX.io
+
+Talks:
+
+* <<Warp 10 - advanced Time Series Platform>>
+* <<D&#x27;autres sujets ?>>
+
+
+
+'''
+== Talks
+
+
+=== &quot;Infrastructure as code&quot; avec Chef
+
+Par <<Nicolas Ledez>>
+
+`+Cloud+` `+DevOps+` `+Ruby+` `+Chef+` `+TDD+` 
+
+
+
+=== 10 Leviers pour rendre son SI Agile, durable et étendu
+
+Par <<Fabien Grellier>>
+
+`+Agile à l&#x27;echelle+` `+DevOps+` `+TransformationDigitale+` `+Management+` 
+
+Lorsqu’on cherche à industrialiser son système d’informations,  et réussir son passage à l&#x27;échelle, il est essentiel de le faire à 10 niveaux : Vision, Architecture, Organisation, Budget, Delivery, Recette, Documentation, Infrastructure, Pilotage, Management. En effet, chacun de ces niveaux a des impacts sur l’autre, et ne pas avoir une vision d’ensemble risque d’avoir des conséquences négatives pour la réussite de l’industrialisation.
+
+=== Agile et UX
+
+Par <<Julien Fallet>>
+
+`+Stratégie produit+` `+User eXperience+` `+Design Thinking+` `+Agile+` `+DevOps+` 
+
+Transposer les leçons du LeanStartup dans votre écosystème afin de créer un cadre facilitant la construction de prosuits innovants
+
+=== Animation d&#x27;ateliers et/ou de jeux
+
+Par <<Timothée Chevrier>>
+
+`+Agile+` `+Scrum+` `+Auto-organisation+` `+Serious Game+` `+Rétrospectives+` `+Echanges+` 
+
+A travers l&#x27;exercice de rétrospective proposer par la méthode Scrum, j&#x27;ai eu l&#x27;occasion d&#x27;animer un grand nombre d&#x27;ateliers dans des buts variés. Je me propose donc comme facilitateur de vos ateliers pour découvrir comment se réunir différement.
+
+=== API Web : Best pratices
+
+Par <<David Martin>>
+
+`+Java+` `+API Web+` `+REST+` 
+
+(présentation) Un projet d&#x27;API Web ? Autant partir sur de bonnes bases !
+
+=== API Web et Cache
+
+Par <<David Martin>>
+
+`+Java+` `+API Web+` `+REST+` 
+
+(présentation) La performance de vos API Web ne tient peut être qu&#x27;à un usage pertinent du cache. Comprenez quand et comment en tirer profit.
+
+=== Après les user stories, les team stories
+
+Par <<Timothée Chevrier>>
+
+`+Agile+` `+Scrum+` `+Auto-organisation+` `+Serious Game+` `+Rétrospectives+` `+Echanges+` 
+
+Session d&#x27;1H réalisée à l&#x27;agile tour Brest. Il s&#x27;agit d&#x27;un retour d&#x27;expérience sur un passage de 3 ans en tant que Scrum master dans une équipe. J&#x27;y parle estimations, rétrospectives, management visuel, auto organisation. Et j&#x27;ai quelques bonus en tête (spécifications par les tests d&#x27;acceptances, etc...)
+
+=== Architecture Cloud sur Azure en C#
+
+Par <<Vincent Lainé>>
+
+`+Développement+` `+.NET+` `+C#+` `+Agile+` `+Scrum+` `+Cloud+` `+Azure+` `+Windows Phone+` `+Xamarin+` `+Visual Studio Online+` `+TFS+` 
+
+Vous souhaitez migrer sur le cloud Azure mais vous ne savez pas comment ? Vous avez déjà fait le saut et vous souhaitez discuter de l&#x27;architecture mise en place ? Au cours de cette session nous pourrons discuter des différents composants disponible sur Azure et de leurs forces et faiblesses ainsi que les patterns d&#x27;architecture associés
+
+=== Coaching individuel
+
+Par <<Christophe Bégot>>
+
+`+Agile+` `+Coaching+` 
+
+Présentation de la démarche et sessions de coaching.
+
+=== Coding Dojo
+
+Par <<Arnaud Bailly>>
+
+`+Clean Code+` `+TDD+` `+XP+` 
+
+Mettre en place un &#x27;coding dojo&#x27; c&#x27;est très simple, cela demande uniquement un peu de temps, de bonne volonté et surtout beaucoup de bienveillance et de curiosité.
+
+=== Comment être un développeur ethique et green ? Dilemne entre la course technologique et mon impact sur la société.
+
+Par <<Olivier Philippot>>
+
+`+Green+` `+Eco-conception+` `+Ethique+` 
+
+Le logiciel est partout. Il est clair que le logiciel a un impact réel sur le monde... Nous, développeurs sommes les architectes du monde virtuel au service du réel. Nos actions ont un effet bien réel. Bénéfique mais aussi néfaste. Exclusion sociale, impact environnemental, obsolescence sont des effets bien réel de nos logiciels. Mais avons nous le choix face au demandes de nos utilisateurs et clients et aux contraintes associées (planning, sécurité...) Et bien oui, c&#x27;est le choix qui est fait par de nombreuses sociétés et développeurs : bénévolat comme code for America, Eco-conception de logiciel publique... Etre développeur ethique et green est possibles, nous verrons concretement comme faire cela au jour le jour.
+
+=== D&#x27;autres sujets ?
+
+Par <<Xavier MARIN>>
+
+`+Time series+` `+Big Data+` `+Databases+` `+Warp 10+` 
+
+Tout ce qui gravite autour de Warp 10 : https://blog.senx.io
+
+=== Dev(\)Ops ? l&#x27;after Agile ?
+
+Par <<Nicolas Ledez>>
+
+`+Cloud+` `+DevOps+` `+Ruby+` `+Chef+` `+TDD+` 
+
+
+
+=== Développer des applications mobile avec Xamarin
+
+Par <<Vincent Lainé>>
+
+`+Développement+` `+.NET+` `+C#+` `+Agile+` `+Scrum+` `+Cloud+` `+Azure+` `+Windows Phone+` `+Xamarin+` `+Visual Studio Online+` `+TFS+` 
+
+Initiation au développement cross-plateform avec Xamarin en C#
+
+=== Développer en C# pour le cloud
+
+Par <<Vincent Lainé>>
+
+`+Développement+` `+.NET+` `+C#+` `+Agile+` `+Scrum+` `+Cloud+` `+Azure+` `+Windows Phone+` `+Xamarin+` `+Visual Studio Online+` `+TFS+` 
+
+Découvrez (ou redécouvrez) les différents design pattern associés au développement sur le cloud.
+
+=== Event Sourcing, Functionally
+
+Par <<Arnaud Bailly>>
+
+`+FP+` `+EventSourcing+` `+DDD+` 
+
+L&#x27;Event Sourcing est une technique de modélisation et de stockage des données puissante et extrêmement flexible. Comment la mettre en oeuvre en pratique et comment elle entre en résonnance avec les principes de la programmation fonctionnelle, là est la question!
+
+=== Extreme Serious Game
+
+Par <<Julien Fallet>>
+
+`+Communication+` `+Coopération+` `+Stratégie+` 
+
+Le jeu et l&#x27;Entreprise : Une expérience pour questionner la place du jeu en entreprise
+
+=== Facilitation graphique
+
+Par <<Julien Fallet>>
+
+`+Scribing+` `+Sketchnote+` `+Pensée visuelle+` 
+
+Découvrir par la pratique les outils et techniques de facilitation graphique pour animer vos reflexions collective et partager clairemen une situation.
+
+=== Fast Cars, Big Data: ou comment le streaming peut aider la formule 1
+
+Par <<Tugdual Grall>>
+
+`+Big Data+` `+NoSQL+` `+MapR+` `+Streaming+` `+Apache Kafka+` `+Apache Flink+` `+Apache Spark+` 
+
+Les voitures, et tout particulièrement les voitures de courses, génèrent énormément de données, qui doivent être capturées, stockées et traitées en temps réel avec l&#x27;aide de Kafka, Spark/Flink, NoSQL, et DFS
+
+=== Git for dumbass + Git trick or treats
+
+Par <<Nicolas Ledez>>
+
+`+Cloud+` `+DevOps+` `+Ruby+` `+Chef+` `+TDD+` 
+
+
+
+=== Haskell pour les nuls
+
+Par <<Arnaud Bailly>>
+
+`+FP+` `+Haskell+` `+Type Driven Development+` 
+
+La programmation fonctionnelle, c&#x27;est hype, c&#x27;est cool, ça groove... mais ça fait peur, surtout en Haskell, un langage réputé pour les matheux. Je vous propose de découvrir ce langage fascinant et le monde merveilleux des types par la pratique.
+
+=== Hypermedia API
+
+Par <<David Martin>>
+
+`+Java+` `+API Web+` `+REST+` 
+
+(présentation) Découvrez et comprenez l&#x27;intérêt de cette contrainte du style d&#x27;architecture REST dans vos API Web
+
+=== Intérêt de Git en entreprise
+
+Par <<Guillaume Collic>>
+
+`+Agile+` `+Kanban+` `+ALM+` `+Git+` `+TDD+` `+Coding Dojo+` 
+
+On parle de plus en plus des gestionnaires de version « distribués » (DVCS), Git en particulier. Pourquoi cet engouement, en quoi sont-ils intéréssants en entreprise ?
+
+=== Introduction à Ruby
+
+Par <<Nicolas Ledez>>
+
+`+Cloud+` `+DevOps+` `+Ruby+` `+Chef+` `+TDD+` 
+
+
+
+=== Introduction à Vagrant
+
+Par <<Nicolas Ledez>>
+
+`+Cloud+` `+DevOps+` `+Ruby+` `+Chef+` `+TDD+` 
+
+
+
+=== Introduction au Big Data et NosQL
+
+Par <<Tugdual Grall>>
+
+`+Big Data+` `+NoSQL+` `+MapR+` `+Streaming+` `+Hadoop+` 
+
+Introduction au Big Data et NoSQL: pourquoi? comment?&lt;br/&gt;Durant cette présentation je vous propose de discuter les cas d&#x27;usages, technologies de facon interactive.
+
+=== Introduction au Cloud
+
+Par <<Nicolas Ledez>>
+
+`+Cloud+` `+DevOps+` `+Ruby+` `+Chef+` `+TDD+` 
+
+
+
+=== Introduction au TDD par la pratique
+
+Par <<Guillaume Collic>>
+
+`+Agile+` `+Kanban+` `+ALM+` `+Git+` `+TDD+` `+Coding Dojo+` 
+
+Mis en pratique du TDD sur un petit exercice collectif, qui peut être isolé, ou le lancement de Coding Dojo réguliers. 
+
+=== Iotception : Mesure de l&#x27;énergie d&#x27;Android Things sur Raspberry avec Arduino
+
+Par <<Olivier Philippot>>
+
+`+IoT+` `+Android Things+` `+Green+` `+Raspberry+` 
+
+(introduction / live coding / présentation) Découvrez l&#x27;IoT avec cette session qui mèle hardware, DIY et logiciel avec l&#x27;angle green. Session jouée à Breizhcamp, Android Maker
+
+=== Jenkins X: toward a Cloud-native Jenkins
+
+Par <<Nicolas De Loof>>
+
+`+Cloud+` `+Jenkins+` `+Kubernetes+` 
+
+L&#x27;architecture de Jenkins date de 10 ans. C&#x27;est ce qui a permis de construire un écosystème gigantesque et de couvrir les besoins de tout le monde avec une flexibilité extrême. En assurant la compatibilité ascendante, Jenkins s&#x27;interdit-il d&#x27;évoluer pour embracer les paradigmes modernes ? On pourrait le croire, sauf que ... Jenkins-X!
+
+=== Jouez avec des feux tricolores en Ruby
+
+Par <<Nicolas Ledez>>
+
+`+Cloud+` `+DevOps+` `+Ruby+` `+Chef+` `+TDD+` 
+
+
+
+=== L&#x27;agile supporté par Visual Studio Online / TFS 2015
+
+Par <<Vincent Lainé>>
+
+`+Développement+` `+.NET+` `+C#+` `+Agile+` `+Scrum+` `+Cloud+` `+Azure+` `+Windows Phone+` `+Xamarin+` `+Visual Studio Online+` `+TFS+` 
+
+Un tours d&#x27;horizon des possibilités offertes par VSo/TFS 2015 pour supporter votre process agile
+
+=== L&#x27;agilité c&#x27;est quoi ?
+
+Par <<Timothée Chevrier>>
+
+`+Agile+` `+Scrum+` `+Auto-organisation+` `+Serious Game+` `+Rétrospectives+` `+Echanges+` 
+
+Vous avez entendu parlé d&#x27;agilité et le sujet vous intéresse. Je vous propose de partager ma vision de ce qu&#x27;elle est, et de construire ensemble ce qu&#x27;elle pourrait être pour vous.
+
+=== L&#x27;aventure intérieure
+
+Par <<Julien Fallet>>
+
+`+Neurosciences+` `+Méditation+` `+Agilité+` 
+
+Mieux appréhender, grace aux neurosciences et à la méditation, ce qui peut nous apparaître difficile dans le changement et identifier des pistes pour dépasser nos structures mentales et/ou émotionnelles.
+
+=== Le développement logiciel avec les méthodes agiles
+
+Par <<Julien Fallet>>
+
+`+Agile+` `+Scrum+` `+Kanban+` `+Produit+` `+Product Owner+` 
+
+Comprendre ce que les méthodes agiles souhaitent apporter au dévelopement logiciel (Equipe, Produit, Communication)
+
+=== Lego4DevOps
+
+Par <<Haja Rambelontsalama>>
+
+`+Agile+` `+DevOps+` `+ALM+` `+Atelier+` 
+
+Sensibilisation à l&#x27;intérêt du DevOps à travers un jeu Lego visant à reconcilier développeurs et opérationnels.
+
+=== Management d&#x27;équipe technique
+
+Par <<Pierre Marquis>>
+
+`+Management+` `+CTO+` 
+
+Je propose de partager quelques outils et expériences du management d&#x27;équipe technique
+
+=== Mesurez votre consommation d&#x27;énergie sur Android et sur HTML5
+
+Par <<Olivier Philippot>>
+
+`+Android+` `+HTML5+` `+Green+` `+Energie+` 
+
+L&#x27;autonomie est un critère important pour les utilisateurs mobiles mais aussi pour l&#x27;iOT. Mais elle est très rarement mesurée par les développeurs d&#x27;application ou même de site web ou d&#x27;application. On ne découvre des problèmes que trop tard (ou jamais). Les plateformes actuelles fournissent cependant des API permettant de récupérer des données. Android, HTML5... En 5 mn, vous pouvez avoir une donnée d&#x27;énergie. Je vous expliquerai comment utiliser ces API, comment utiliser et interpréter les données, et les utiliser dans vos tests.
+
+=== Méthodes et pratiques Agiles
+
+Par <<Christophe Bégot>>
+
+`+Agile+` `+Coaching+` 
+
+Présentations et échanges pour une première approche ou un appronfondissement.
+
+=== Mon équipe se focalise sur la valeur métier ... grâce au code
+
+Par <<Haja Rambelontsalama>>
+
+`+Agile+` `+DevOps+` `+ALM+` `+Cloud+` `+Infra as Code+` `+Doc as Code+` `+Conf as Code+` `+Spec as Code+` `+Pipeline as Code+` `+Craftsmanship+` `+Software Craftsmanship+` `+TDD+` 
+
+S&#x27;adressant à tous les professionnels du numérique, avec ou sans background technique, cette conférence fait le tour de plusieurs pratiques d&#x27;utilisation du code pour les différentes parties de la création de produit numérique depuis les spécifications fonctionnelles ou la documentation jusqu&#x27;à l&#x27;infrastructure.
+
+=== Pimentez votre &#x27;carto&#x27; avec du temps réel
+
+Par <<David DE CARVALHO>>
+
+`+SSE+` `+ServerSentEvent+` `+Node+` `+NodeJS+` `+RabbitMQ+` `+MOM+` `+Message-Oriented-Middleware+` `+Asynchrone+` `+Assynchronisme+` 
+
+Le temps réel : c&#x27;est facile et rapide avec le protocole ServerSentEvent - (NodeJS, RabbitMQ, protocole SSE). Partez d’une base Node, saupoudrez d’un peu de RabbitMQ, puis ajoutez du SSE et vous obtiendrez une belle carte interactive temps réel. Session en live-coding.
+
+=== Retour d&#x27;expérience Agile chez Mappy, Nokia, Efficity
+
+Par <<Pierre Marquis>>
+
+`+Agile+` `+Scrum+` `+Kanban+` 
+
+Je propose de partager mon expérience de scrum master scrum/kanban au sein de différentes entreprises. Comment s&#x27;est passé le passage à la méthode agile? Comment amener l&#x27;agile dans son équipe ou plus globalement dans son entreprise? Les avantages de l&#x27;agile dans une équipe back, contraintes de l&#x27;agile et problèmes rencontrés?
+
+=== Retour d&#x27;EXperience PagesJaunes : les transactions dans une architecture microservices
+
+Par <<David DE CARVALHO>>
+
+`+Java+` `+REST+` `+Microservices+` `+RabbitMQ+` `+MOM+` `+Message-Oriented-Middleware+` `+Cassandra+` `+Asynchrone+` `+Assynchronisme+` `+Architecture+` 
+
+Comment sécuriser les transactions dans une architecture distribuée (microservices) sans que cela coûte un bras ? Découvrons ensemble comment chez PagesJaunes nous avons mis en place une architecture distribuée basée sur l’asynchronisme et la reprise de données automatique.
+
+=== Retour vers le passé|futur avec Git
+
+Par <<Haja Rambelontsalama>>
+
+`+Agile+` `+VCS+` `+DVCS+` `+Git+` `+Coding Dojo+` 
+
+Retour sur les forces et killer features de Git, possiblité de faire un coding dojo. 
+
+=== Rétrospective
+
+Par <<Christophe Bégot>>
+
+`+Agile+` `+Coaching+` 
+
+Dérouler une rétrospective Agile avec votre équipe.
+
+=== Stream Processing avec Apache Flink
+
+Par <<Tugdual Grall>>
+
+`+Big Data+` `+NoSQL+` `+MapR+` `+Streaming+` `+Apache Kafka+` `+Apache Flink+` `+Apache Spark+` 
+
+Presentation de l&#x27;architecture &#x27;streaming first&#x27; et du projet Apache Flink
+
+=== TDD à tous les étages
+
+Par <<Arnaud Bailly>>
+
+`+Tests+` `+TDD+` `+XP+` `+CI+` 
+
+TDD !&#x3D; tests unitaires. Comment appliquer le cycle du TDD (red-green-refactor) à toutes les étapes du développement et à différents niveaux de granularité, des tests unitaires aux tests d&#x27;acceptation et de performance.
+
+=== Tour d&#x27;horizon des méthodes agiles
+
+Par <<Guillaume Collic>>
+
+`+Agile+` `+Kanban+` `+ALM+` `+Git+` `+TDD+` `+Coding Dojo+` 
+
+Pourquoi les méthodes agiles ? Que partagent-elles ? Approfondissement de 3 d&#x27;entre elles : Scrum, eXtreme Programming, et Kanban
+
+=== Transformation agile
+
+Par <<Pierre Marquis>>
+
+`+Agile+` `+Scrum+` `+Kanban+` 
+
+Quelle démarche? Par quoi démarrer? Comment amener le changement?
+
+=== Tu veux scripter ?
+
+Par <<Nicolas Ledez>>
+
+`+Cloud+` `+DevOps+` `+Ruby+` `+Chef+` `+TDD+` 
+
+
+
+=== Vin et kanban
+
+Par <<Julien Fallet>>
+
+`+Agile+` `+Scrum+` `+Kanban+` `+Produit+` `+Product Owner+` 
+
+Découvrir le Lean et le Kanban a travers le management de ma cave à vin, ou comment améliorer un produit ou un processus.
+
+=== Warp 10 - advanced Time Series Platform
+
+Par <<Xavier MARIN>>
+
+`+Time series+` `+Big Data+` `+Databases+` `+Warp 10+` 
+
+Vous connaissiez les bases relationnelles, orientées document, voire même graphe. A chaque problème son outil. Warp 10 est une plateforme Open Source de stockage et un moteur d&#x27;analyse de Time Series ou la géolocalisation a une place de choix. Scalable à l&#x27;infini, ce plateforme offre WarpScript, un langage d&#x27;analyse de Time Series robuste et versatile. Je vous présenterai Warp 10 dans les grandes lignes et quelques cas d&#x27;usage illustrant la modélisation de Time series et l&#x27;analyse data flow.
+
+=== Y sont pas cher mes tests !
+
+Par <<Nicolas Ledez>>
+
+`+Cloud+` `+DevOps+` `+Ruby+` `+Chef+` `+TDD+` 
+
+
+

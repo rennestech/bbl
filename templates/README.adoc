@@ -1,0 +1,74 @@
+:toc:
+:toc-placement!:
+
+= BBL Rennes https://www.brownbaglunch.fr/[qu'est-ce qu'un BBL?]
+
+Rennes c'est aussi des passionnés et des fondus de tech ! Qui se retrouvent parfois sur https://join.slack.com/t/rennestech/shared_invite/enQtNTY5OTk4NDk5MzAyLWRjZjg4MTAwNTU1ODczMjgwNmJkMzM5Y2UzMWQyZDc0MGRmM2Q2YjExNDQ4MmJlM2E5MWYwYTRlZGQzODdjOGY[Slack], au BreizhCamp ou dans d'autres évènements locaux.
+
+Et si vous invitiez l'un de ces <<Speakers>> Rennais directement dans votre entreprise pour un https://www.brownbaglunch.fr/[BBL] ?
+
+toc::[]
+
+== 🗓 Programme 2019
+
+=== A venir
+
+=== Passés
+
+:calendar: 24 juin :office: Ouest-France :microphone: Loïc Troquet
+
+:memo: Comment PagesJaunes se prépare à dépasser Ouest-France dans le classement webperf
+
+Après un balayage rapide du contexte PagesJaunes, des éléments essentiels de la webperf, d'un focus sur les outils que nous utilisons et du classement JDN. Nous détaillerons les différents projets d’amélioration menés ces 9 derniers mois et les impacts de chacun.
+
+== 🎙 J'aimerais proposer un talk
+
+Nous reprenons la source https://github.com/brownbaglunch/BrownBagLunch avec les speakers de Rennes.
+Soumettez une PR là bas pour vous y ajouter et vous serez automatiquement ajouté ici.
+
+== :office: J'aimerais organiser une BBL dans mon entreprise
+
+Contactez le speaker que vous aimeriez inviter dans votre entreprise sur Slack et, une fois la date du BBL convenue, soumettez une https://github.com/rennestech/bbl/issues[issue] et nous l'ajouterons ci-dessus. Si vous pouvez soumettre une https://github.com/rennestech/bbl/pulls[PR], c'est encore mieux.
+
+== 👋 Slack
+
+Venez discuter avec la communauté sur https://join.slack.com/t/rennestech/shared_invite/enQtNTY5OTk4NDk5MzAyLWRjZjg4MTAwNTU1ODczMjgwNmJkMzM5Y2UzMWQyZDc0MGRmM2Q2YjExNDQ4MmJlM2E5MWYwYTRlZGQzODdjOGY[Slack]
+
+
+'''
+== Speakers
+
+{{#each speakers}}
+
+[# speaker-{{name}}]
+
+=== {{name}}
+
+
+{{#if contacts.twitter}}image::https://avatars.io/twitter/{{contacts.twitter}}?.png[64,64]{{/if}}
+
+> {{bio}}
+
+Talks:
+
+{{#each sessions}}
+* <<{{title}}>>
+{{/each}}
+
+{{/each}}
+
+
+'''
+== Talks
+
+{{#each sessions}}
+
+=== {{title}}
+
+Par <<{{speaker.name}}>>
+
+{{#if tags}}{{#each tags}}`+{{this}}+` {{/each}}{{/if}}
+
+{{#if abstract}}{{abstract}}{{/if}}
+{{/each}}
+

@@ -1,8 +1,20 @@
 {
-    "name": "bbl-rennes",
-    "preferGlobal": true,
-    "version": "0.0.1",
-    "dependencies": {
-        "node-fetch": "2.6.0"
-    }
+  "name": "bbl-rennes",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "dependencies": {
+    "handlebars": "^4.1.2",
+    "node-fetch": "2.6.0",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.1"
+  },
+  "engines": {
+    "node": "10"
+  },
+  "scripts": {
+    "start:dev": "nodemon -e js,md,adoc -w sync.js -w templates/ sync.js",
+    "postinstall": "node sync.js"
+  }
 }
