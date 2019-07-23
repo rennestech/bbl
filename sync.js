@@ -1,43 +1,44 @@
-const fetch = require("node-fetch");
-const fs = require("fs");
+// Quick & Dirty script
+// extract baggers from main repo, filter only Rennes ones and print them back into our readme
 
+const fetch = require('node-fetch');
+const fs = require('fs');
+const path = require('path');
+const Handlebars = require('handlebars');
+
+// #SingleSourceOfTruth
 const speakersJs = 'https://data.brownbaglunch.fr/baggers.js';
-const readme = 'README.md';
+const output = path.resolve(__dirname, 'README.adoc');
+
+
+const tmpl = (filename) => Handlebars.compile(fs.readFileSync(path.resolve(__dirname, 'templates', filename), 'utf8'));
+
+const templates = {
+  readme: tmpl('README.adoc'),
+};
+
 
 (async () => {
-    const bbl = await fetch(speakersJs);
-    const body = await bbl.text();
-    eval(body);
-    const speakers = data.speakers
-        .filter(speaker => speaker.cities.includes('Rennes'))
-        .map(rennesSpeaker => getSpeakerInfos(rennesSpeaker))
-        .join('');
+  // retrieve speakers & sessions
+  const bbl = await fetch(speakersJs);
+  const body = await bbl.text();
+  eval(body);
 
-    fs.readFile(readme, 'utf8', function (err,data) {
-        if (err) {
-            return console.log(err);
-        }
-        var result = data.replace(/(?<=\#startspeakers)([\S\s]*?)(?=\[\/\/\]\: \#endspeakers)/gm, speakers);
+  const speakers = data.speakers
+    .filter(speaker => speaker.cities.includes('Rennes'))
+    .sort((a, b) => a.name.localeCompare(b.name));
 
-        fs.writeFile(readme, result, 'utf8', function (err) {
-            if (err) return console.log(err);
-        });
-    });
+  const sessions = speakers
+    // flatMap `sessions` attribute add `speaker` attribute to every sessions
+    .reduce((m, speaker) => m.concat(speaker.sessions.map(session => Object.assign(session, {
+      speaker: speaker,
+    }))), [])
+    .sort((a, b) => a.title.localeCompare(b.title));
 
+  const result = templates.readme({
+    speakers,
+    sessions,
+  });
+
+  fs.writeFileSync(output, result, 'utf8');
 })();
-
-
-function getSpeakerInfos(speaker) {
-    let content = '\r\n\r\n### ' + speaker.name + '\r\n\r\n';
-
-    if (speaker.sessions) {
-
-        speaker.sessions.forEach(function(session) {
-            content += '#### ' + session.title + '\r\n\r\n';
-            if (session.abstract) {
-                content += session.abstract + '\r\n\r\n';
-            }
-        });
-        return content;
-    }
-}
