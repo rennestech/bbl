@@ -28,7 +28,7 @@ Soumettez une PR là bas pour vous y ajouter et vous serez automatiquement ajout
 
 == :office: J'aimerais organiser une BBL dans mon entreprise
 
-Soumettez une https://github.com/rennestech/bbl/issues[issue] et nous l'ajouterons ci-dessus.
+Contactez le speaker que vous aimeriez inviter dans votre entreprise sur Slack et, une fois la date du BBL convenue, soumettez une https://github.com/rennestech/bbl/issues[issue] et nous l'ajouterons ci-dessus. Si vous pouvez soumettre une https://github.com/rennestech/bbl/pulls[PR], c'est encore mieux.
 
 == 👋 Slack
 
