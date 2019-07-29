@@ -23,7 +23,7 @@ Après un balayage rapide du contexte PagesJaunes, des éléments essentiels de 
 
 == 🎙 J'aimerais proposer un talk
 
-Nous reprenons la source https://github.com/brownbaglunch/BrownBagLunch avec les speakers de Rennes.
+Nous reprenons la source https://github.com/brownbaglunch/bblfr_data/ avec les speakers de Rennes.
 Soumettez une PR là bas pour vous y ajouter et vous serez automatiquement ajouté ici.
 
 == :office: J'aimerais organiser une BBL dans mon entreprise
