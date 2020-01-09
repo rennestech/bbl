@@ -71,6 +71,17 @@ Talks:
 * <<Rétrospective>>
 * <<Coaching individuel>>
 
+[# speacker-David Blanchet]
+
+image::https://bbls-orangelabs.github.io/images/david_blanchet.png
+
+> Développeur
+
+=== David Blanchet
+
+Talks:
+* <<I � Unicode>>
+
 
 [# speaker-David DE CARVALHO]
 
@@ -116,6 +127,51 @@ Talks:
 
 * <<10 Leviers pour rendre son SI Agile, durable et étendu>>
 
+[# speacker-Fabrice Depaulis]
+
+image::https://bbls-orangelabs.github.io/images/fabrice_depaulis.png
+
+> Développeur Data-Search
+
+=== Fabrice Depaulis
+
+Talks:
+* <<FastText ou la solution de l'équation x = cidre - bretagne + bourgogne>>
+* <<Démystification du machine learning>>
+
+[# speacker-Fiona Le Montreer]
+
+image::https://bbls-orangelabs.github.io/images/fiona_le_montreer.png
+
+> Développeuse Backend
+
+=== Fiona Le Montreer
+
+Talks:
+* <<Pourquoi nous ne ferons plus jamais de java>>
+
+[# speacker-Florent Vuillemin]
+
+image::https://bbls-orangelabs.github.io/images/florent_vuillemin.png
+
+> Développeur Outils Sécurité
+
+=== Florent Vuillemin
+
+Talks:
+* <<Comment j'ai hacké ma prise électrique>>
+
+[# speacker-François Gélineau]
+
+image::https://bbls-orangelabs.github.io/images/francois_gelineau.png
+
+> Développeur
+
+=== François Gélineau
+
+Talks:
+* <<Codons un DSL pour Elasticsearch en Kotlin >>
+
 
 [# speaker-Guillaume Collic]
 
@@ -148,6 +204,17 @@ Talks:
 * <<Retour vers le passé|futur avec Git>>
 * <<Lego4DevOps>>
 
+[# speacker-Jean-François Cunat]
+
+image::https://bbls-orangelabs.github.io/images/jean_francois_cunat.png
+
+> Architecte Logiciel
+
+=== Jean-François Cunat
+
+Talks:
+* <<Electron : Cross platform desktop apps - the Good, the Bad and the Ugly>>
+
 
 [# speaker-Julien Fallet]
 
@@ -166,6 +233,18 @@ Talks:
 * <<Agile et UX>>
 * <<L&#x27;aventure intérieure>>
 * <<Extreme Serious Game>>
+
+[# speacker-Nicolas Bulteau]
+
+image::https://bbls-orangelabs.github.io/images/nicolas_bulteau.png
+
+> Architecte
+
+=== Nicolas Bulteau
+
+Talks:
+* <<Pourquoi nous ne ferons plus jamais de java>>
+* <<Démystification du machine learning>>
 
 
 [# speaker-Nicolas De Loof]
@@ -219,6 +298,17 @@ Talks:
 * <<Iotception : Mesure de l&#x27;énergie d&#x27;Android Things sur Raspberry avec Arduino>>
 * <<Mesurez votre consommation d&#x27;énergie sur Android et sur HTML5>>
 
+[# speacker-Pascal Le Merrer]
+
+image::https://bbls-orangelabs.github.io/images/pascal_le_merrer.png
+
+> Développeur
+
+=== Pascal Le Merrer
+
+Talks:
+* <<Comment Elm a changé mon expérience de dev front-end>>
+
 
 [# speaker-Pierre Marquis]
 
@@ -235,6 +325,15 @@ Talks:
 * <<Transformation agile>>
 * <<Management d&#x27;équipe technique>>
 
+[# speacker-Pierre Rust]
+
+image::https://bbls-orangelabs.github.io/images/pierre_rust.png
+
+
+=== Pierre Rust
+
+Talks:
+* <<Votre python avance trop lentement ? Venez découvrir comment l'accélérer !>>
 
 [# speaker-Timothée Chevrier]
 
@@ -298,6 +397,15 @@ Talks:
 
 * <<Warp 10 - advanced Time Series Platform>>
 * <<D&#x27;autres sujets ?>>
+
+[# speacker-Xavier Moulet]
+
+image::https://bbls-orangelabs.github.io/images/xavier_moulet.png
+
+=== Xavier Moulet
+
+Talks:
+* <<Du fer à souder à la manette : une console de jeux à partir d'un microcontrolleur>>
 
 
 
@@ -385,6 +493,37 @@ Par <<Arnaud Bailly>>
 
 Mettre en place un &#x27;coding dojo&#x27; c&#x27;est très simple, cela demande uniquement un peu de temps, de bonne volonté et surtout beaucoup de bienveillance et de curiosité.
 
+
+=== Codons un DSL pour Elasticsearch en Kotlin 
+
+Par <<François Gélineau>>
+
+`+kotlin` `+dsl` `+live_coding`
+
+(présentation) Vous rêvez d'interroger votre ElasticSearch avec une syntaxe claire, facile à comprendre et à maintenir ? Vous aimeriez écrire du code qui ressemble à cela : 
+
+```
+val result = search
+{
+    "uuid" keyword should be "2eed0"
+    "sha1" keyword exists
+    "timestamp" keyword must not start with "2019-04-03"
+}
+```
+
+Et oui c'est du code Kotlin, fortement typé !
+Nous vous montrerons les différentes astuces qu'offre Kotlin pour développer un DSL (domain specific language). Et la lecture de votre code n'aura jamais été aussi naturelle !
+A l'issue de ce live coding, vous n'aurez qu'une envie, c'est d'en écrire un pour votre propre cas d'usage ! 
+
+=== Comment Elm a changé mon expérience de dev front-end
+
+Par <<Pascal Le Merrer>>
+
+`+frontend` `+programmation_fonctionnelle` `+no_javascript`
+
+(présentation) En passant de Javascript à Elm, mon quotidien a radicalement changé. Les garanties apportées par le compilateur Elm m'apportent une sérénité qui m'était inconnue auparavant. Je n'hésite plus à me lancer dans un refactoring, je n'ai plus de mauvaise surprise en intégrant une nouvelle librairie ou en récupérant le code publié par mes collègues. 'Venez découvrir comment développer des applications front-end sans stress ! 
+
+
 === Comment être un développeur ethique et green ? Dilemne entre la course technologique et mon impact sur la société.
 
 Par <<Olivier Philippot>>
@@ -393,6 +532,17 @@ Par <<Olivier Philippot>>
 
 Le logiciel est partout. Il est clair que le logiciel a un impact réel sur le monde... Nous, développeurs sommes les architectes du monde virtuel au service du réel. Nos actions ont un effet bien réel. Bénéfique mais aussi néfaste. Exclusion sociale, impact environnemental, obsolescence sont des effets bien réel de nos logiciels. Mais avons nous le choix face au demandes de nos utilisateurs et clients et aux contraintes associées (planning, sécurité...) Et bien oui, c&#x27;est le choix qui est fait par de nombreuses sociétés et développeurs : bénévolat comme code for America, Eco-conception de logiciel publique... Etre développeur ethique et green est possibles, nous verrons concretement comme faire cela au jour le jour.
 
+=== Comment j'ai hacké ma prise électrique
+
+Par <<Florent Vuillemin>>
+
+`+sécurité` `+hacking` `+linux` `+embarqué`
+
+(présentation) En 2015, je me suis penché sur l'étude d'une prise électrique connectée qui agit comme passerelle LORA : le porte-clé associé dialogue avec elle pour remonter sa position et des notifications de mouvement.
+
+En cherchant à comprendre son fonctionnement, j'ai rapidement trouvé un certain nombre d'erreurs de conception permettant d'obtenir un accès root sur le Linux embarqué de la prise, et même d'injecter des données corrompues sur le serveur du fabricant. Nous allons parcourir ensemble les étapes permettant de trouver ces erreurs, et surtout en déduire des bonnes pratiques sur les produits que nous développons !
+
+
 === D&#x27;autres sujets ?
 
 Par <<Xavier MARIN>>
@@ -400,6 +550,16 @@ Par <<Xavier MARIN>>
 `+Time series+` `+Big Data+` `+Databases+` `+Warp 10+` 
 
 Tout ce qui gravite autour de Warp 10 : https://blog.senx.io
+
+=== Démystification du machine learning
+
+Par <<Nicolas Bulteau>> et <<Fabrice Depaulis>>
+
+`+machine_learning` `+deep_learning` `+101` `+live_coding`
+
+(présentation) Vous avez déjà assisté à plusieurs présentations sur le machine  et/ou le deep learning mais vous continuez à vous dire que c'est vraiment pas fait pour vous. 
+Tentez encore une fois votre chance : cette fois, l'espoir réside dans le fait que nous ne sommes ni mathématiciens, ni datascientists, et qu'on se bornera à vous dire comment on s'est intéressé  à la question en passant par une approche "code" (spoiler : c'est plein de live coding !)
+
 
 === Dev(\)Ops ? l&#x27;after Agile ?
 
@@ -424,6 +584,26 @@ Par <<Vincent Lainé>>
 `+Développement+` `+.NET+` `+C#+` `+Agile+` `+Scrum+` `+Cloud+` `+Azure+` `+Windows Phone+` `+Xamarin+` `+Visual Studio Online+` `+TFS+` 
 
 Découvrez (ou redécouvrez) les différents design pattern associés au développement sur le cloud.
+
+
+=== Du fer à souder à la manette : une console de jeux à partir d'un microcontrolleur
+
+Par <<Xavier Moulet>>
+
+`+DIY` `+Electronique`
+
+(présentation) Nous verrons comment réaliser une console de jeu avec un puce à partir d'un simple microcontrôleur à quelques euros avec 512k de flash et qq ko de RAM : le principe de codage sur un micro ARM32 bits, la toolchain, génération du signal vidéo TV/VGA, puis peu à peu comment (re)coder des jeux à l'ancienne NES ou en video, émuler des consoles et micro 8 bits (MO5 ! ZX Spectrum, ...), faire de la musique avec un chiptracker, et enfin un système de jeu où tout le jeu est codé dans une seule image ! Des exemples de programmation seront donnés à la fois sur la partie bas niveau et sur le développement de quelques jeux.
+
+
+=== Electron : Cross platform desktop apps - the Good, the Bad and the Ugly
+
+Par <<Jean-François Cunat>>
+
+`+electron` `+javascript` `+html`
+
+(présentation) Pourquoi Electron est-il devenu incroyablement populaire pour développer des applications PC/Mac ? Qu'est-ce qui le rend si pratique pour les développeurs ? A quel prix pour les utilisateurs ? Un retour d'expérience sur une application en production depuis 1 an
+
+
 
 === Event Sourcing, Functionally
 
@@ -457,6 +637,23 @@ Par <<Tugdual Grall>>
 
 Les voitures, et tout particulièrement les voitures de courses, génèrent énormément de données, qui doivent être capturées, stockées et traitées en temps réel avec l&#x27;aide de Kafka, Spark/Flink, NoSQL, et DFS
 
+=== FastText
+
+Par <<Fabrice Depaulis>>
+
+`+machine-learning` `+natural-language-processing` `+101` `+live_coding`
+
+(présentation) Analyse de sentiment, détection de spam, reconnaissance de la langue, ... : toutes ces questions correspondent à un même problème de « **classification** ». Un développeur lambda utiliserait naturellement des **expressions régulières** ou du **pattern matching** pour en venir à bout. Mais grâce à la démocratisation du **machine learning**, il est désormais possible de le résoudre en utilisant des algorithmes d'apprentissage automatique performants, sans même s'en rendre compte !
+Dans ce talk, nous allons vous permettre d'ajouter une corde à votre arc de développeur en vous présentant la librairie **FastText**.
+Après une introduction sur les questions de classification et le monde étonnamment fascinant du traitement automatique de la langue, nous répondrons à la question existentielle :
+
+```python
+Que vaut "cidre - bretagne + bourgogne" ?
+```
+
+Ensuite, nous construirons **en live**, « from scratch », un système qui classe automatiquement une question posée sur stackoverflow et un autre qui detecte automatiquement la langue dans laquelle est rédigée un texte.
+
+
 === Git for dumbass + Git trick or treats
 
 Par <<Nicolas Ledez>>
@@ -480,6 +677,19 @@ Par <<David Martin>>
 `+Java+` `+API Web+` `+REST+` 
 
 (présentation) Découvrez et comprenez l&#x27;intérêt de cette contrainte du style d&#x27;architecture REST dans vos API Web
+
+
+=== I � Unicode
+
+Par <<David Blanchet>>
+
+
+(présentation) Quoi de plus banal et de plus simple que du texte ? Une "String" dans votre code, et vous gérez du texte, tranquille. 
+Mais à bien y réfléchir, ce fichu média humain qu'est l'écriture est-il aussi immédiat que ça pour nos chères machines ? 
+
+Spoiler : non ! 
+
+Et on verra ensemble pourquoi et comment on s'y prend pour s'en sortir.
 
 === Intérêt de Git en entreprise
 
@@ -633,6 +843,21 @@ Par <<David DE CARVALHO>>
 
 Le temps réel : c&#x27;est facile et rapide avec le protocole ServerSentEvent - (NodeJS, RabbitMQ, protocole SSE). Partez d’une base Node, saupoudrez d’un peu de RabbitMQ, puis ajoutez du SSE et vous obtiendrez une belle carte interactive temps réel. Session en live-coding.
 
+
+=== Pourquoi nous ne ferons plus jamais de java
+
+Par <<Fiona Le Montreer>> et <<Nicolas Bulteau>>
+
+`+kotlin` `+java`
+
+(présentation) Si **Java** reste le langage roi sur les JVM serveurs, l’inertie dans l’évolution du **langage** risque de réduire considérablement son attractivité et donc son utilisation à l’avenir.
+Scala avait déjà tenté une percée profitant du retard de Java 8 mais bien que ce langage offre une liste étendue de fonctionnalités, il a échoué en ce qui concerne les temps d’apprentissage et la prise en charge des outils. 
+Les créateurs de  **Kotlin** on voulu créer un **« meilleur langage »** que Java,
+Le pari est réussi et **Kotlin** risque de porter le coup fatal à Java, d’autant que la vraie pépite d'Oracle n'est pas le langage Java, mais bien sa **machine virtuelle**. 
+Nous sommes passés à Kotlin en septembre 2018 et allons tenter de vous exposer pourquoi nous ne reviendrons pas en arrière … 
+
+
+
 === Retour d&#x27;expérience Agile chez Mappy, Nokia, Efficity
 
 Par <<Pierre Marquis>>
@@ -712,6 +937,14 @@ Par <<Julien Fallet>>
 `+Agile+` `+Scrum+` `+Kanban+` `+Produit+` `+Product Owner+` 
 
 Découvrir le Lean et le Kanban a travers le management de ma cave à vin, ou comment améliorer un produit ou un processus.
+
+=== Votre python avance trop lentement ? Venez découvrir comment l'accélérer !
+
+Par <<Pierre Rust>>
+
+`+performance` `+profiling` `+python`
+
+(présentation) Python est LENT, tout le monde sait ça ... et pourtant il est utilisé dans des domaines très variés, y compris ceux où la performance compte : machine learning, calcul scientifique, analyse de données et services internet massifs ! Mais comment font-ils ?! Nous verrons comment identifier les portions qui ralentissent réellement votre application, puis les différentes techniques, des plus simples aux plus avancées, pour accélérer votre code python. Keywords: cProfile, yappi, timit, cython, numba, pypy, etc.
 
 === Warp 10 - advanced Time Series Platform
 
